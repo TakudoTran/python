@@ -204,7 +204,7 @@ html {
     /* border-radius: 10px; */
     justify-content: center;
     align-items: center;
-    background: url('https://drive.google.com/file/d/1RUm3cL_X0pzxV-VU7d2-rnYx7qySCYiS/view') #151729;
+    background: url('./images/p404.png') #151729;
     box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
     
 }
