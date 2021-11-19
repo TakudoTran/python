@@ -1,0 +1,253 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+html {
+    box-sizing: border-box;
+  }
+  
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+  }
+  
+
+  
+#linh  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+ #linh .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+ #linh .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+  
+ #linh .container {
+    padding: 0 16px;
+  }
+  
+ #linh .container::after,
+ #linh .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ #linh .container h2 {
+    text-align: center;
+  }
+  
+#linh  .container .title {
+    color: grey;
+  }
+  
+ #linh .container .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ #linh footer {
+      background-color: black;
+      text-align: center;
+      color: white;
+  }
+  
+#linh  footer p {
+      margin: 0;
+      padding: 10px;
+  }
+
+
+#tho  h1{
+    background-color: rgba(255, 0, 0, 0.808);
+    border: 15px;
+    border-style: double;
+    padding: 20px;
+    border-color: rgb(31, 30, 30);
+    color: black;
+    display: inline;
+    margin: 150px;
+    text-align: center;
+}
+#tho h2{
+    margin-top: 50px;
+    color: red;
+    size: 150%;
+}
+#tho h3{
+    color: black;
+}
+ body{
+    color: rgb(92, 35, 226);
+    background-color:#fda0bfce ;
+    font-family: cursive;
+}
+#tho .container{
+    display: flex;
+    width: 1324px;
+    justify-content: center;
+}
+#tho #bio img{
+    width: 250px;
+    height: auto;
+
+}
+#tho #caution {
+    font-weight: 100;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#tho #contact {
+    font-weight: 100;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#tho #infor{
+    margin: 50px;
+}
+#tho #table td{
+    color: black;
+    
+    border: 1px solid black;
+    border-color: rgb(212, 71, 15);
+    border-collapse: collapse;
+}
+#tho input[type ="send"]{
+    background-color: red;
+    color: black;
+    font-weight: 200;
+    width: 120px;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 20px;
+}
+#tho input[type ="send"]:hover{
+    cursor:pointer;
+   padding: 20px;
+}
+     input{
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+    font-size: medium;
+    display: block;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+#trong *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#trong section{
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    height: 100vh;
+}
+#trong #container{
+    position: absolute;
+    /* top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border-radius: 10px; */
+    justify-content: center;
+    align-items: center;
+    background: url('p404.png') #151729;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+    
+}
+#trong #container .content{
+    max-width: 600px;
+    text-align: center;
+}
+  #container .content h2{
+    font-size: 18vw;
+    color: #fff;
+    line-height: 1em;
+    text-shadow: 0 2px 5px rgb(0, 0, 0);
+    mix-blend-mode: overlay;
+}
+#trong #container .content h4{
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #111;
+    background: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+#trong  #container .content p{
+    color: #fff;
+    font-size: 1.2em;
+}
+#trong #container .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background:  #ff0562;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px solid #d00d56;
+}
+#trong #container .content a:hover{
+    background:  #ff0562;
+    color: #000;
+    border-bottom: 4px solid #7a012e;
+}
